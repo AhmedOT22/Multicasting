@@ -31,6 +31,7 @@ javac Client.java Server.java swingMulticast.java
 
 ### 2. Start the Server
 
+```bash
 Run the Server.java file in a terminal or command prompt:
 java Server
 
@@ -38,6 +39,7 @@ java Server
 
 Open a new terminal or command prompt and run the swingMulticast.java file:
 
+```bash
 java swingMulticast
 
 ### 4. Interact with the Application
@@ -49,6 +51,3 @@ Send Messages: Type your message in the text field and click Send to broadcast i
 The Server listens to the multicast group and receives any messages sent by clients. It will display the received messages in the GUI.
 The Client sends messages to the multicast group, which will be received by all clients that have joined the group.
 
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
