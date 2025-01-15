@@ -28,12 +28,15 @@ Navigate to the project directory and compile the Java files:
 
 ```bash
 javac Client.java Server.java swingMulticast.java
+```
 
 ### 2. Start the Server
 
-```bash
 Run the Server.java file in a terminal or command prompt:
+
+```bash
 java Server
+```
 
 ### 3. Start the Client
 
@@ -41,6 +44,7 @@ Open a new terminal or command prompt and run the swingMulticast.java file:
 
 ```bash
 java swingMulticast
+```
 
 ### 4. Interact with the Application
 
