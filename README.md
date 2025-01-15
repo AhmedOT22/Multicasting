@@ -48,10 +48,10 @@ java swingMulticast
 
 ### 4. Interact with the Application
 
-Join a Group: Enter the multicast group IP (e.g., 224.100.100.100) and click Join to start receiving messages from others in the group.
-Send Messages: Type your message in the text field and click Send to broadcast it to the group.
+- Join a Group: Enter the multicast group IP (e.g., 224.100.100.100) and click Join to start receiving messages from others in the group.
+- Send Messages: Type your message in the text field and click Send to broadcast it to the group.
 
 ## How It Works
-The Server listens to the multicast group and receives any messages sent by clients. It will display the received messages in the GUI.
-The Client sends messages to the multicast group, which will be received by all clients that have joined the group.
+- The Server listens to the multicast group and receives any messages sent by clients. It will display the received messages in the GUI.
+- The Client sends messages to the multicast group, which will be received by all clients that have joined the group.
 
